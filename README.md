@@ -38,8 +38,10 @@ Configure the node using the parameters in  config/params.yaml:
 - publish_tf: Whether to publish TF transforms (default: true)
 
 **Topics**
+
 Subscribed Topics
 - cmd_vel_nav (geometry_msgs/Twist): Velocity commands
+  
 Published Topics
 - odom (nav_msgs/Odometry): Odometry information
 
