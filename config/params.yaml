@@ -1,0 +1,9 @@
+motor_driver:
+  ros___parameters:
+    portname_encoder: /dev/ttyUSB0
+    portname_stm32: /dev/ttyUSB1
+    baudrate: 115200
+    wheel_radius: 0.05
+    wheel_seperation: 0.325
+    ticks_per_revolution: 1600
+    publish_tf: true
